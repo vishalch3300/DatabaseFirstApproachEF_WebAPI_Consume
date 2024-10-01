@@ -17,7 +17,8 @@ namespace DatabaseFirstApproachEF_WebAPI_Consume
                 name: "Default",
                 url: "{controller}/{action}/{id}",
                 //defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-                defaults: new { controller = "CrudMvc", action = "Index", id = UrlParameter.Optional }
+                //defaults: new { controller = "CrudMvc", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "CrudMvcNew", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

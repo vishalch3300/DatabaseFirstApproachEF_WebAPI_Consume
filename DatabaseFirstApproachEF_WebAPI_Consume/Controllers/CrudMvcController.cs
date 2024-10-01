@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Net.Http;
 using System.Web;
 using System.Web.Mvc;
+
 using DatabaseFirstApproachEF_WebAPI_Consume.Models;
+using System.Net.Http;
 
 namespace DatabaseFirstApproachEF_WebAPI_Consume.Controllers
 {
